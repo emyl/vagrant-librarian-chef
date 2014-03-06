@@ -1,4 +1,16 @@
-# vagrant-librarian-chef
+# vagrant-librarian-chef-nochef
+
+A fork of the [vagrant-librarian-chef](https://github.com/jimmycuadra/vagrant-librarian-chef)
+plugin that use the [librarian-chef-nochef](https://github.com/emyl/librarian-chef-nochef) gem,
+thus doesn't depend on chef.
+
+Install running:
+
+    $ vagrant plugin install vagrant-librarian-chef-nochef
+
+Below the original vagrant-librarian-chef README:
+
+=========
 
 A [Vagrant](http://www.vagrantup.com/) plugin to install
 [Chef](http://www.opscode.com/chef/) cookbooks using
