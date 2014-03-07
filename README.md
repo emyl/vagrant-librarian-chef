@@ -1,8 +1,9 @@
 # vagrant-librarian-chef-nochef
 
 A fork of the [vagrant-librarian-chef](https://github.com/jimmycuadra/vagrant-librarian-chef)
-plugin that use the [librarian-chef-nochef](https://github.com/emyl/librarian-chef-nochef) gem,
-thus doesn't depend on chef.
+plugin that use the [librarian-chef-nochef](https://github.com/emyl/librarian-chef-nochef) gem.
+
+**Since it doesn't depend on chef, this fork works flawlessly on Windows hosts.**
 
 Install running:
 
