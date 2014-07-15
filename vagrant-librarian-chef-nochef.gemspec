@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "vagrant-librarian-chef-nochef"
-  spec.version       = "0.1.2"
+  spec.version       = "0.2.0"
   spec.authors       = ["Emiliano Ticci", "Jimmy Cuadra"]
   spec.email         = ["emiticci@gmail.com" "jimmy@jimmycuadra.com"]
   spec.description   = %q{A Vagrant plugin to install Chef cookbooks using librarian-chef-nochef.}
